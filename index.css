@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html , body{
+    width: 100%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.box{
+    padding: 30px;
+    height: 50vh;
+    background-color: antiquewhite;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+.lists{
+    display: flex;
+    gap: 10px;
+   flex-grow: 0.1;
+   overflow-x: scroll;
+}
+.card{
+    background-color: #fff;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 10px;
+    margin: 0 20px;
+    flex-shrink: 0;
+}
+#btns{
+    flex-grow: 0.5;
+    margin: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
